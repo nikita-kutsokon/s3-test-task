@@ -1,8 +1,8 @@
-# Media Management Service
+# Node.js S3 Service
 
 ## Overview
 
-This is a simple Node.js application (without Express) that provides a media management service. It allows users to upload, retrieve, update, and delete media files stored in an AWS S3-compatible storage (e.g., MinIO). The application also maintains metadata about uploaded files and validates file types.
+This is a simple Node.js application (without Express) that provides a media management service. It allows users to upload, retrieve, update, and delete media files stored in an AWS S3-compatible storage. The application also maintains metadata about uploaded files and validates file types.
 
 ---
 
@@ -37,9 +37,9 @@ This is a simple Node.js application (without Express) that provides a media man
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- Docker (for running MinIO)
-- AWS CLI (optional, for testing S3 operations)
+- Node.js
+- Docker
+- AWS CLI
 
 ### Steps
 
